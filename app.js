@@ -9,7 +9,3 @@ app.use(bodyparser.json());
  
 connection.init();
 routes.configure(app);
-
-var server = app.listen(888, function() {
-  console.log('Server listening on port ' + server.address().port);
-});
